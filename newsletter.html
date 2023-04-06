@@ -14,7 +14,7 @@
               azul: {
                 claro: "#C5DFFF",
                 escuro: "#061E3C",
-                houver: "#1057B0",
+                hover: "#1057B0",
               },
             },
             fontFamily: {
@@ -29,7 +29,7 @@
   <body
     class="bg-azul-claro font-inter flex justify-center items-center h-screen"
   >
-    <main class="flex px-6">
+    <main class="flex px-6 drop-shadow-2xl">
       <section class="bg-azul-escuro hidden">
         <img
           class=""
@@ -38,7 +38,7 @@
         />
       </section>
 
-      <section class="bg-white p-10 gap-6 flex flex-col">
+      <section class="bg-white p-10 gap-6 flex flex-col rounded-lg">
         <div class="">
           <svg
             class=""
@@ -83,13 +83,13 @@
             >Email</label
           >
           <input
-            class="text-sm w-full mb-4 pl-3"
+            class="text-sm w-full mb-4 pl-3 rounded border py-2 shadow focus:outline-none hover:border-azul-claro hover:ring-1 hover:ring-azul-escuro focus:border-azul-escuro focus:ring-1 focus:ring-azul-escuro"
             id="email"
             type="email"
             placeholder="Digite seu endereço de email"
           />
           <button
-            class="font-bold text-white bg-azul-escuro w-full py-2"
+            class="font-bold text-white bg-azul-escuro w-full py-2 rounded-full shadow-2xl hover:bg-azul-hover duration-150"
             type="button"
           >
             Inscreva-se
